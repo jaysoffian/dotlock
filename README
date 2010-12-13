@@ -1,0 +1,12 @@
+dotlock.py - example python script which uses dot-locking.
+
+lock.sh - shell script example which uses dot-locking.
+Can be used as a wrapper to invoke another program atomically.
+
+Both of these are safe over NFS, and should be safe over SMB.
+
+Also see lockfile, part of the procmail package and setlock,
+part of djb's daemontools package.
+
+See http://apenwarr.ca/log/?m=201012#13 for an excellent
+writeup of the standard Unix locking APIs.
